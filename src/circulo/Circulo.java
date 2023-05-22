@@ -23,7 +23,12 @@ public class Circulo {
         this.radio = radio;
         this.color = color;
     }
-    
+
+    /**
+     * Constructor por defecto
+     */
+    public Circulo() {
+    }
     
     /**
      * Método que calcula el area del círculo
